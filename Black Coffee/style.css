@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+header{
+    /* background-color: rgba(200, 198, 192); */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    margin-left: 40px;
+    /* text-align: center; */
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.links a:hover{
+    color: peru;
+}
+.search .bi{
+    font-size: 20px;
+    margin: 0 20px;
+    color: black;
+}
+
+/* Hero */
+.hero{
+    background-image: url(Images/hero.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 210vh;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.hero-content{
+    padding-top: 100px;
+    width: 700px;
+    text-align: center;
+}
+.hero-content p{
+    color: burlywood;
+    font-size: 50px;
+    margin: 0 0 10px 40px;
+    padding-top: 100px;
+}
+.hero-content h1{
+    color: white;
+    font-size: 100px;
+    margin: 0px 0 30px 140px;
+}
+.hero-content button{
+    background-color:rgb(172, 139, 106);
+    color: white;
+    margin:0 0 0 130px;
+    padding: 16px 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.hero-content button:hover{
+    background-color: white;
+    color:black;
+}
+
+/* categories */
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.heading h1{
+    font-size: 40px;
+}
+.heading p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#image-container, #Milk-Shakes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card{
+    width: 250px;
+    background: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shakes{
+    width: 250px;
+    background: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Milk-Shakes .shakes img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shakes h3{
+    margin-top: 10px;
+    height: 60px;
+}
+
+.shakes button{
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 15px;
+    border: 0;
+    background-color: black;
+    color:white;
+}
+.shakes button:hover{
+    background-color:rgb(172, 139, 106);
+    color: white;
+}
