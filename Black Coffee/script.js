@@ -1,3 +1,8 @@
+function toggleMenu() {
+    document.querySelector(".links").classList.toggle("active");
+}
+
+
 let img = [
 {
     image: "./Images/hot chocolate.jpg",
@@ -18,6 +23,26 @@ let img = [
 {
     image: "./Images/Cappuccino.jpg",
     name: "Cappuccino Coffee"
+},
+{
+    image: "./Images/Iced Americano.jpg",
+    name: "Americano"
+},
+{
+    image: "./Images/ice Latte.jpg",
+    name: "Latte"
+},
+{
+    image: "./Images/Iced Caramel Macchiato.jpg",
+    name: "Caramel Macchiato"
+},
+{
+    image: "./Images/Iced Mocha.jpg",
+    name: "Iced Mocha"
+},
+{
+    image: "./Images/Hazelnut Latte.jpg",
+    name: "Hazelnut Latte"
 }
 ];
 
@@ -51,6 +76,36 @@ let imag = [
 {
     image: "./Images/Solted Caramel Milkshakes.jpg",
     name: "Salted Caramel Milkshakes",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/oreo milkshake.jpg",
+    name: "Oreo Milkshakes",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/Bourbon & Peanut Butter Milkshake.jpg",
+    name: "Bourbon & Peanut Butter Milkshake",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/Nutella Milkshake.jpg",
+    name: "Nutella Milkshake",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/Mango milkshake.jpg",
+    name: "Mango Milkshake",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/strawberry milkshake.jpg",
+    name: "Strawberry Milkshake",
+    buy: "Buy Now"
+},
+{
+    image: "./Images/Blueberry Milkshake.jpg",
+    name: "Blueberry Milkshake ",
     buy: "Buy Now"
 }
 ];
